@@ -177,8 +177,11 @@ section article .login span {
   /* margin: 25px 0px; */
 }
 
-section article .login .Sign-in a {
+section article .login .Sign-in button {
   text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
   color: var(--backgroudColor);
   background-color: var(--loginBut);
   font-size: 25px;
